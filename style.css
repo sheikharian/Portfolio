@@ -1,0 +1,108 @@
+html{
+    height:150%;
+    background:linear-gradient(#F6E3A9, #E19B67);
+    background-repeat: no-repeat;
+    padding-bottom:500px;
+}
+#header{
+    display:flex;
+    justify-content:center;
+}
+.topbar{
+    margin:5%;
+    padding:.5%;
+    color:black;
+    font-size:120%;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+}
+a{
+    height:27px;
+}
+.topbar:hover{
+    background-color:#D18349;
+    border-radius:15px;
+    margin-bottom:2px;
+}
+#title{
+    display:flex;
+    justify-content:center;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+#subtitle{
+    display:flex;
+    justify-content:center;
+    font-size:120%;
+    font-family: 'PT Sans', sans-serif;
+}
+#social{
+    margin-top:10%;
+}
+img{
+    margin:.6%;
+    width:4%;
+}
+#home{
+    display:flex;
+    justify-content:center;
+}
+#astoria{
+    height:50%;
+    width:50%;
+    border:solid 5px #9E6F0F;
+}
+#text{
+    margin:5%;
+    font-size:115%;
+    font-family: 'PT Sans', sans-serif;
+}
+#pictures{
+     display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content:center;
+  margin-top:35px;
+}
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.post{
+    width:350px;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+#creations{
+    margin-top:50px;
+}
+.works{
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color:white;
+    font-size:30px;
+}
+.descrip{
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 20px;
+}
+.website{
+    margin:20px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
